@@ -1,0 +1,13 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python:3.10.10
+    container_name: python3.10.10
+    hostname: python3.10.10
+    volumes:
+      - ../:/workspace
+    ports:
+      - 8000:8000
+    tty: true
