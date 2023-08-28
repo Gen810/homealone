@@ -1,4 +1,4 @@
-# homealone (Term2_TeamA)
+# homealone (arch_term2_teamA)
 Demonstration app for AP Pharmacy (Arch_2023_Summer)
 
 ## Members
