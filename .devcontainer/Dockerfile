@@ -11,10 +11,11 @@ RUN apt-get update && apt-get install -y \
     libzbar-dev \
     && rm -rf /var/lib/apt/lists/*
 
+RUN git config --global core.autocrlf false
+
 RUN pip install --upgrade pip \
     && pip install \
     jupyter \
     Django \
     pandas
 
-RUN git config --global core.autocrlf input
