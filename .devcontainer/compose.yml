@@ -8,6 +8,4 @@ services:
     hostname: python3.10.10
     volumes:
       - ../:/workspace
-    ports:
-      - 8000:8000
     tty: true
