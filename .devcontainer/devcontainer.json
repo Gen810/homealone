@@ -1,5 +1,5 @@
 {   
-    "name": "python_dev",
+    "name": "homealone",
     "dockerComposeFile": "compose.yml",
     "service": "python",
 	"workspaceFolder": "/workspace",
@@ -13,11 +13,7 @@
 				"njpwerner.autodocstring",
 				"oderwat.indent-rainbow",
 				"KevinRose.vsc-python-indent",
-				"christian-kohler.path-intellisense",
-				"amodio.toggle-excluded-files",
-				"GitHub.copilot",
-				"eamodio.gitlens",
-				"ms-vscode.live-server"
+				"christian-kohler.path-intellisense"
 			]
 		}
 	}
