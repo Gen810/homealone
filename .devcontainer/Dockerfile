@@ -16,3 +16,5 @@ RUN pip install --upgrade pip \
     jupyter \
     Django \
     pandas
+
+RUN git config --global core.autocrlf input
