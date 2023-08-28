@@ -17,5 +17,5 @@ RUN pip install --upgrade pip \
     && pip install \
     jupyter \
     Django \
-    pandas
+    requests
 
