@@ -24,4 +24,4 @@ Demonstration app for AP Pharmacy (Arch_2023_Summer)
 
 ### Note
 - **`main` branch is protected**, cannot be pushed directly.  Create a new branch for each feature
-- name the branch as `feature/<your-name>/<feature-name>` or `fix/<your-name>/<fix-name>`
+- name the branch as `feature/<feature-name>/<your-name>` or `fix/<fix-name>/<your-name>`
