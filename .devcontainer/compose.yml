@@ -3,9 +3,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: python:3.10.10
-    container_name: python3.10.10
-    hostname: python3.10.10
+    image: python:3.10
+    container_name: python3.10
+    hostname: homealone
     volumes:
       - ../:/workspace
     tty: true
